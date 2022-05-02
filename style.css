@@ -117,3 +117,62 @@ a {
   background-color: #f6f6f6;
   color: #4b2a5d;
 }
+
+#pet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.pet-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.pet-heading span {
+  color: gray;
+  font-style: oblique;
+}
+
+.pet-heading .pet-name {
+  color: green;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.pet-heading .pet-race {
+  color: black;
+}
+
+.pet-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+.pet-info div,
+.pet-info p {
+  padding: 10px;
+}
+
+.pet-imgs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+.pet-imgs p img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
