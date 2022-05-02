@@ -1,0 +1,26 @@
+{
+  "name": "CursSV2022",
+  "version": "1.0.0",
+  "description": "Course 1 Planning",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanaPDC/CursSV2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanaPDC/CursSV2022/issues"
+  },
+  "homepage": "https://github.com/DanaPDC/CursSV2022#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
