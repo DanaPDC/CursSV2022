@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.border-style {
+  border: 1px solid #000;
+  padding: 15px;
+}
+.color-name {
+  color: violet;
+}
+.name-cursor {
+  cursor: pointer;
+}
+.gradient-box {
+  margin-top: 50px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  padding: 10px;
+}
+.style-color-button {
+  margin: 0 15px;
+  padding: 2px;
+}
+.header-color {
+  padding-bottom: 15px;
+}
